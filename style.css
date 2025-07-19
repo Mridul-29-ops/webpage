@@ -1,0 +1,45 @@
+body{
+    font-family:"Roboto" , sans-serif;
+    margin: 48px;
+}
+
+.second{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.Logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.sign{
+    background-color: #3882f6;
+}
+
+.facts{
+    font-weight: 900;
+}
+
+.quote{
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.facts,.quote{
+    font-size: 36px;
+    color: #1f2937;
+}
