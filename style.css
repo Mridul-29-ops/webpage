@@ -1,6 +1,18 @@
 body{
     font-family:"Roboto" , sans-serif;
-    margin: 48px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+
+}
+
+.header, .col2, .col3, .col4, .col5{
+    padding: 30px 100px;
+}
+
+.col1{
+    background-color: #1f2937;
 }
 
 .second{
@@ -12,6 +24,9 @@ ul{
     list-style-type: none;
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
+    align-self: flex-end;
+    gap: 15px;
 }
 
 .Logo{
@@ -28,6 +43,9 @@ ul{
 
 .sign{
     background-color: #3882f6;
+    width: max-content;
+    text-align: left; font-size: x-large; color: #f9faf8; font-weight: bold; padding: 10px;
+    margin-top: 0;
 }
 
 .facts{
@@ -37,9 +55,119 @@ ul{
 .quote{
     font-style: italic;
     font-weight: lighter;
+    text-align: left;
 }
 
 .facts,.quote{
     font-size: 36px;
     color: #1f2937;
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    margin: 0px;
+    margin-top: auto;
+    min-height: 60px;
+}
+
+.col2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+img{
+    align-self: flex-end;
+    height: 280px;
+    width: 635px;
+    flex-shrink: 0;
+}
+
+.imp{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:24px;
+    margin-bottom: 30px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;    
+  align-items: center;       
+  width: 22%;                
+}
+
+.box{
+    height: 150px;
+    width: 100%;
+    border-radius: 20px;
+    background-image: url("https://wallpapers.com/images/hd/cute-cats-pictures-8l6l3e8qb2jtfj08.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid blue
+}
+
+.col4{
+    background-color: #e5e7eb;
+    margin-bottom: 30px;
+}
+
+.name{
+    text-align: right;
+    font-size: x-large;
+}
+
+.col5{
+    margin-bottom: 30px;
+    flex: 1
+}
+
+.action{
+    border-radius: 15px;
+    height: 100px;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.huh{
+    display: flex;
+    flex-direction: column;
+}
+
+.idk{
+    display: flex;
+    flex-direction: column;
+}
+
