@@ -124,11 +124,26 @@ img{
   width: 22%;                
 }
 
-.box{
+.box1{
+    background-image: url("https://wallpapers.com/images/hd/cute-cats-pictures-8l6l3e8qb2jtfj08.jpg");
+}
+
+.box2{
+    background-image: url("https://cdn.pixabay.com/photo/2022/08/05/08/41/animal-7366320_640.jpg");
+}
+
+.box3{
+    background-image: url("https://cdn.pixabay.com/photo/2019/04/08/10/03/cat-4111686_640.jpg");
+}
+
+.box4{
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/12/10/45/kittens-2136803_640.jpg");
+}
+
+.box1,.box2,.box3,.box4{
     height: 150px;
     width: 100%;
     border-radius: 20px;
-    background-image: url("https://wallpapers.com/images/hd/cute-cats-pictures-8l6l3e8qb2jtfj08.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
